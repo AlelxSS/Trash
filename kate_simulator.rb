@@ -67,7 +67,7 @@ while (question = gets.chomp.downcase) #get text line
 		else
 			puts "...молчание..."
 		end
-	#if we can't recognize question
+	#if we can't recognize question...
 	else
 		case rand(4)
 		when 0
