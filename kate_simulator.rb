@@ -55,6 +55,7 @@ while (question = gets.chomp.downcase) #get text line
 		puts "Куда-то"
 	when /чей/
 		puts "Общий"
+	#unusual questions
 	when /\?/
 		case rand(4)
 		when 0
