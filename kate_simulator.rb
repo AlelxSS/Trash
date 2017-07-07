@@ -78,3 +78,5 @@ while (question = gets.chomp.downcase) #get text line
 	end
 
 end
+
+#changed on PC
