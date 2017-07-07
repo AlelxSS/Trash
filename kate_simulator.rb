@@ -7,7 +7,9 @@ while (question = gets.chomp.downcase) #get text line
 	#if line is empty then break chat
 	when ""
 		break
+	#Greetings
 	when /привет|здарова/
+		#some variants of answers
 		case rand(5)
 		when 4
 			puts "Аагга.."
