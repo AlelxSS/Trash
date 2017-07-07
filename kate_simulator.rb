@@ -1,17 +1,22 @@
 puts "------------ СИМУЛЯТОР КАТИ ------------"
 
-while (question = gets.chomp.downcase)
+#Start simulator like a chat with robot girl
+while (question = gets.chomp.downcase) #get text line
 
 	case question
+	#if line is empty then break chat
 	when ""
 		break
+	#Greetings
 	when /привет|здарова/
+		#some variants of answers
 		case rand(5)
 		when 4
 			puts "Аагга.."
 		else
 			puts "Привет"
 		end
+	#so then we just checking questions
 	when /почему/
 		case rand(3)
 		when 0
